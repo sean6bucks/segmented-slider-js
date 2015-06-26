@@ -1,0 +1,71 @@
+$green: #68ba43;
+$yellow: #ffcc00;
+$red: #de1f26;
+$handleContainerHeight: 5px;
+$handleWidth: 20px;
+$handleHeight: 20px;
+$handleTop: -$handleContainerHeight * 1.5;
+$leftPadding: 10px;
+$rightPadding: 10px;
+
+.segmented-slider {
+    position: relative;
+    
+    ul {
+        position: relative;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .point-container {
+        padding-left: $leftPadding;
+        padding-right: $rightPadding;
+        height: 1.5em;
+
+        li {
+            position: absolute;
+
+            &:after {
+                content: "|";
+                display: block;
+            };
+        }
+    }
+    
+    .handle-container {
+        position: relative;
+        height: $handleContainerHeight;
+    } 
+
+    .handle {
+        position: absolute;
+        width: $handleWidth;
+        height: $handleHeight;
+        top: $handleTop;
+    }
+   
+    .segment {
+        position: absolute;
+        height: $handleContainerHeight;
+    }
+
+    .green {
+        background-color: $green;
+    }
+
+    .amber {
+        background-color: $yellow;
+    }
+
+    .red {
+        background-color: $red;
+    }
+}
