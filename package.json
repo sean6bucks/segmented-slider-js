@@ -1,0 +1,24 @@
+{
+  "name": "jquery-segmented-slider",
+  "version": "1.0.0",
+  "description": "A simple slider with three segment",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninjaprox/segmented-slider-js.git"
+  },
+  "keywords": [
+    "slider",
+    "segment",
+    "jquery"
+  ],
+  "author": "Nguyen Vinh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninjaprox/segmented-slider-js/issues"
+  },
+  "homepage": "https://github.com/ninjaprox/segmented-slider-js#readme"
+}
