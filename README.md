@@ -8,6 +8,7 @@ segmented-slider-js is a simple slider with three segment.
 That's all. No more words. Just use it.
 
 # Demo
+[Have a look](http://ninjaprox.github.io/demo/segmented-slider-js/)
 
 # Requirements
 
