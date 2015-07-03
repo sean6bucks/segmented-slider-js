@@ -31,9 +31,11 @@
     <script src="js/jquery.event.drag-2.2.js"></script>
     <script src="js/segmented-slider.js"></script>
     <script>
-        $(".segmented-slider").segmentedSlider(function(greenPoint, amberPoint) {
-            $(".handle.green").text(greenPoint);
-            $(".handle.amber").text(amberPoint);
+        $(function() {
+            $(".segmented-slider").segmentedSlider(function(greenPoint, amberPoint) {
+                $(".handle.green").text(greenPoint);
+                $(".handle.amber").text(amberPoint);
+            });
         });
     </script>
 </body>
