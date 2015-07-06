@@ -3,7 +3,7 @@ segmented-slider-js
 
 # Introduction
 
-segmented-slider-js is a simple slider with three segment.
+segmented-slider-js is a simple slider with three segments.
 
 That's all. No more words. Just use it.
 

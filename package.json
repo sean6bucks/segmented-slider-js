@@ -1,7 +1,7 @@
 {
   "name": "jquery-segmented-slider",
   "version": "1.0.0",
-  "description": "A simple slider with three segment",
+  "description": "A simple slider with three segments",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
