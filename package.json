@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ninjaprox/segmented-slider-js/issues"
   },
-  "homepage": "https://github.com/ninjaprox/segmented-slider-js#readme"
+  "homepage": "https://github.com/ninjaprox/segmented-slider-js#readme",
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
 }
