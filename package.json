@@ -1,6 +1,6 @@
 {
   "name": "jquery-segmented-slider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple slider with three segments",
   "main": "index.html",
   "scripts": {
